@@ -1,3 +1,7 @@
+  // Program dapat dikatakan cukup berhasil, untuk setpoint juga sudah tepat, namun hanya saja terdapat 
+  // sedikit seperti glitch untuk setiap 2 atau 3 detik, selebihnya sudah cukup berhasil untuk Kontrol Kecepatan
+
+  
   #include <driver/timer.h>
   #include <WiFi.h>
   #include <PID_v1_bc.h>
