@@ -1,3 +1,6 @@
+// Speed Tidak terdeteksi dikarenakan untuk fungsi serial.print itu sendiri, untuk menampilkan bilangan float, hanya dapat menampilkan sampai 2 angka di belakang
+// koma saja, sehingga untuk kode ini analisisnya adalah bahwa besar kecepatan yang terdeteksi itu di bawah satuan mili atau bahkan mikro
+
 #include <driver/timer.h>
 #include <WiFi.h>
 #include <PID_v1_bc.h>
