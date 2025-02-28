@@ -17,11 +17,10 @@ String header;
 #define PPR 400
 const int RPWM_PIN = 25;
 const int LPWM_PIN = 26;
-const int PIN_A = 32;
-const int PIN_B = 33;
+const int PIN_A = 33;
+const int PIN_B = 32;
 
-enum ControlMode { SPEED,
-                   ]POSITION };
+enum ControlMode { SPEED, POSITION };
 ControlMode controlMode = SPEED;
 
 // PID Parameters
